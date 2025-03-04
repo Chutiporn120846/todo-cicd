@@ -11,4 +11,6 @@ test('adds a todo when clicking the Add Todo button', () => {
   fireEvent.click(button);
 
   expect(screen.getByText('New todo item')).toBeInTheDocument();
+
+
 });
